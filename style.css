@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body {
+    height: auto;
+    background-color: #212529;
+}
+
+/*HEADER*/
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_header img {
+    position: relative;
+    max-width: 100vw;
+    height: auto;
+}
+.name {
+    position: absolute;
+    color: white;
+    letter-spacing: 6px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+.name h1 {
+    font-weight: 800;
+    font-size: 62px;
+}
+
+.name p {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+.toggle-h1 {
+    color: #B0E0E6;
+}
+.toggle-p {
+    color: #B0E0E6;
+}
+.icon_contact {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  bottom: 40%;
+}
+.icon_contact i {
+  color: #fff;
+  font-size: 45px;
+}
+.icon_contact i:hover {
+  cursor: pointer;
+  color: #eeb553;
+  transition: all 0.5s;
+}
+
+
+/*MENU NAVIGATION*/
+#menu {
+    width: 100vw;
+    height: 52px;
+}
+#menu ul {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#menu ul li {
+    font-size: 25px;
+    font-weight: 800;
+}
+#menu ul li:hover {
+    transform: scale(1.1);
+    z-index: 5;
+    opacity: 1;
+    background: #47c3f8;
+    box-shadow: 0 5px 25px rgba(0,0,0,.2);
+    color: rgb(250, 244, 244);
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+
+/*CONTENT*/
+.primary-color{
+  background: #ffcb74;
+  padding: 5px;
+  border-radius: 10px;
+}
+/*Render*/
+#render {
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    border-bottom: 1px solid #ccc;
+}
+
+/*About me*/
+
+.about_css p {
+  font-size: 25px;
+  line-height: 1.4;
+  padding: 10px 20px;
+  font-style: italic;
+  color: #eeeeee;
+  text-align: start;
+}
+
+/*Education*/
+.education_css h1 {
+  font-size: 30px;
+  color: #eeeeee;
+}
+.education_css p {
+  font-size: 25px;
+  padding-left: 30px;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/*Skill*/
+.skills_css {
+  font-size: 20px;
+  color: #eeeeee;
+}
+.skills_css h1 {
+  padding-left: 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+.skills_css ul li {
+  list-style: none;
+  padding-left: 40px;
+  line-height: 1.4;
+}
+
+/*Contact*/
+.header_contact h1, p {
+  color: #eeeeee;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.header_contact p {
+  font-size: 15px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+}
+.content_contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.phone_contact,
+.mail_contact,
+.location_contact {
+  display: flex;
+  gap: 20px;
+  color: #eeeeee;
+}
+.content_contact h1 {
+  font-size: 25px;
+}
+.content_contact p {
+  color: #eeeeee;
+  font-size: 18px;
+  padding: 20px 10px;
+  text-align: start;
+}
+.fa {
+  color: #ffcb74;
+  font-size: 40px;
+}
+
+.form_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_contact input {
+  width: 300px;
+  height: 42px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.form_contact button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffcb74;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.form_contact button:hover {
+ opacity: 1;
+}
+
+/*SLIDER PROJECT*/
+.image {
+  max-width: 600px;
+  height: 680px;
+  background-color:#B0E0E6;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  object-position: center;
+}
+.text_header {
+  width: 200px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-color:#ffcb74;
+  margin-bottom: 50px;
+}
+.text {
+    color: #212529;
+    font-size: 20px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+}
+
+
